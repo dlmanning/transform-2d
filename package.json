@@ -1,0 +1,14 @@
+{
+  "name": "transform2d",
+  "version": "0.9.0",
+  "description": "zooming and panning",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "author": "David Manning",
+  "license": "MIT",
+  "dependencies": {
+    "gl-matrix": "^2.1.0"
+  }
+}
