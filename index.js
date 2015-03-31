@@ -1,1 +1,1 @@
-module.exports = require('./lib/zoompan');
+module.exports = require('./lib/transform-2d');

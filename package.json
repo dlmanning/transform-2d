@@ -1,5 +1,5 @@
 {
-  "name": "transform2d",
+  "name": "transform-2d",
   "version": "0.9.0",
   "description": "zooming and panning",
   "main": "index.js",
