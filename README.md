@@ -28,7 +28,7 @@ t.zoom(3, [5, 5]);
 
 ## API
 
-### `transform = new Transform2D([options])`
+#### `transform = new Transform2D([options])`
 
 ```javascript
 options = { // defaults
@@ -39,22 +39,22 @@ options = { // defaults
 }
 ```
 
-### `transform.zoom(steps : number, point : Array<number>)`
+#### `transform.zoom(steps : number, point : Array<number>)`
 
 zoom `steps` steps around a `point`. Returns `this`.
 
-### `transform.panStart(point : Array<number>)`
+#### `transform.panStart(point : Array<number>)`
 
 Initiate panning from a particular point, as if the image were pulled at that location. Returns `this`.
 
-### `transform.pan(point : Array<number>)`
+#### `transform.pan(point : Array<number>)`
 
 Pan to a particular point. Returns `this`.
 
-### `transform.panEnd()`
+#### `transform.panEnd()`
 
 Terminate panning.
 
-### `transform.getCTM()`
+#### `transform.getCTM()`
 
 Returns the current transformation matrix in the form `[a, c, b, d, x, y]` corresponding to the 2d augmented matrix `[[a, b, x], [c, d, y]]`.
