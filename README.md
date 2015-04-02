@@ -1,6 +1,6 @@
 # transform-2d
 
-[![js-standard-style](https://raw.githubusercontent.com/Flet/semistandard/master/badge.svg)](https://github.com/Flet/semistandard)
+[![js-standard-style](/badge.png?raw=true)](https://github.com/Flet/semistandard)
 
 
 A module to keep track of and perform common mutations on a matrix describing a 2d affine transform.
