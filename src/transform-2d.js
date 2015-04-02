@@ -1,6 +1,6 @@
 import { mat2d, vec2 } from 'gl-matrix';
 
-const { create: newMat2d, invert, multiply, clone, translate } = mat2d;
+const { create: newMat2d, invert, multiply, clone } = mat2d;
 const { create: newVec2, transformMat2d } = vec2;
 const identity = newMat2d();
 
@@ -64,7 +64,6 @@ export default class Transform2d {
   }
 
   pan (vec) {
-
     if (this.panOrigin) {
       var p = newMat2d();
       p[0] = 1; p[3] = 1; p[4] = vec[0]; p[5] = vec[1];
